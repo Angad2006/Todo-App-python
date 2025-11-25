@@ -1,0 +1,189 @@
+[INFO   ] [Logger      ] Record log in C:\Users\angad\.kivy\logs\kivy_25-11-21_12.txt
+[INFO   ] [deps        ] Successfully imported "kivy_deps.angle" 0.4.0
+[INFO   ] [deps        ] Successfully imported "kivy_deps.glew" 0.3.1
+[INFO   ] [deps        ] Successfully imported "kivy_deps.sdl2" 0.8.0
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\__init__.py"
+[INFO   ] [Python      ] v3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]
+[INFO   ] [Python      ] Interpreter at "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Scripts\python.exe"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [KivyMD      ] 1.2.0, git-Unknown, 2025-11-21 (installed at "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivymd\__init__.py")
+[WARNING] [KivyMD      ] Version 1.2.0 is deprecated and is no longer supported. Use KivyMD version 2.0.0 from the master branch (pip install https://github.com/kivymd/KivyMD/archive/master.zip)
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Text        ] Provider: sdl2
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] GLEW initialization succeeded
+[INFO   ] [GL          ] Backend used <glew>
+[INFO   ] [GL          ] OpenGL version <b'4.6.0 - Build 32.0.101.5972'>
+[INFO   ] [GL          ] OpenGL vendor <b'Intel'>
+[INFO   ] [GL          ] OpenGL renderer <b'Intel(R) Graphics'>
+[INFO   ] [GL          ] OpenGL parsed version: 4, 6
+[INFO   ] [GL          ] Shading version <b'4.60 - Build 32.0.101.5972'>
+[INFO   ] [GL          ] Texture max size <16384>
+[INFO   ] [GL          ] Texture max units <32>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Clipboard   ] Provider: winctypes
+[INFO   ] [GL          ] NPOT texture support is available
+[INFO   ] [Base        ] Start application main loop
+[DEBUG  ] connect_tcp.started host='fywjqqkjrxiisknglnjh.supabase.co' port=443 local_address=None timeout=5.0 socket_options=None
+[DEBUG  ] connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E63C88D550>
+[DEBUG  ] start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E63C5F1270> server_hostname='fywjqqkjrxiisknglnjh.supabase.co' timeout=5.0
+[DEBUG  ] start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E63C5579D0>
+[DEBUG  ] send_connection_init.started request=<Request [b'POST']>
+[DEBUG  ] send_connection_init.complete
+[DEBUG  ] send_request_headers.started request=<Request [b'POST']> stream_id=1
+[DEBUG  ] [Adding (b':method', b'POST') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 3 with 7 bits
+[DEBUG  ] [Adding (b':authority', b'fywjqqkjrxiisknglnjh.supabase.co') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 1 with 6 bits
+[DEBUG  ] Encoding 24 with 7 bits
+[DEBUG  ] [Adding (b':scheme', b'https') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 7 with 7 bits
+[DEBUG  ] [Adding (b':path', b'/auth/v1/token?grant_type=password') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 4 with 6 bits
+[DEBUG  ] Encoding 25 with 7 bits
+[DEBUG  ] [Adding (b'accept', b'*/*') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 19 with 6 bits
+[DEBUG  ] Encoding 3 with 7 bits
+[DEBUG  ] [Adding (b'accept-encoding', b'gzip, deflate') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 16 with 7 bits
+[DEBUG  ] [Adding (b'user-agent', b'python-httpx/0.28.1') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 58 with 6 bits
+[DEBUG  ] Encoding 14 with 7 bits
+[DEBUG  ] [Adding (b'x-client-info', b'supabase-py/2.24.0') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 10 with 7 bits
+[DEBUG  ] Encoding 13 with 7 bits
+[DEBUG  ] [Adding (b'apikey', b'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5d2pxcWtqcnhpaXNrbmdsbmpoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM2OTE5NzAsImV4cCI6MjA3OTI2Nzk3MH0.ACZ5zD7-Jhd6P8X6O4G7hInvOb8mgS057flnEp4JDxE') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 5 with 7 bits
+[DEBUG  ] Encoding 166 with 7 bits
+[DEBUG  ] [Adding (b'authorization', b'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5d2pxcWtqcnhpaXNrbmdsbmpoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM2OTE5NzAsImV4cCI6MjA3OTI2Nzk3MH0.ACZ5zD7-Jhd6P8X6O4G7hInvOb8mgS057flnEp4JDxE') to the header table, sensitive]True, huffman:True
+[DEBUG  ] Encoding 23 with 4 bits
+[DEBUG  ] Encoding 171 with 7 bits
+[DEBUG  ] [Adding (b'x-supabase-api-version', b'2024-01-01') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 16 with 7 bits
+[DEBUG  ] Encoding 7 with 7 bits
+[DEBUG  ] [Adding (b'content-type', b'application/json;charset=UTF-8') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 31 with 6 bits
+[DEBUG  ] Encoding 22 with 7 bits
+[DEBUG  ] [Adding (b'content-length', b'112') to the header table, sensitive]False, huffman:True
+[DEBUG  ] Encoding 28 with 6 bits
+[DEBUG  ] Encoding 2 with 7 bits
+[DEBUG  ] Encoded header block to b'\x83A\x98\x97\xd7\x8e\x9d\xbbu\xe9g\x93\x19\x1dj\x9a\x8a\xbaN\xba-\xacq\x8d\x05\\\x87\x87D\x99`v\xa6v;\x85\x84\x9f\xa9j\xff&\xb0u&$\xfa\xac\xb0V4#\xc1\xec\x93S\x83\xf9c\xe7\x90z\x8e\xaf\xd2g=KN\x94\xd7\xe5\x80.\'\x97\x0f@\x8a\xf2\xb1(1jJ\xc6\xaaS\xff\x8dE\xb5\x8e1\xa0\xabW\xe9\x81.&\x97\x07@\x85\x1df\xea__\xff\'/\xac\xb3\xc7\x88\x86\xd4l\xb98{\xc8\x1d&\xc8\x8c\x95ml\x97\xb29\x93\xad\x7f\x9coe}r\xfa\xcbY\x19\xd0mF\xcb\xeeO\xcb\xb3\xf3\xa7\x0f\xbf\xdd\xd9\x11\x92\xac\xb4~\x9b#\x99)\xfdnAW\xe4\x9c\x93\xd8\x95OX\xff4\xd9\x1d2":k>Cx1)}\x1f\xbb\xb29\x92\x9c6\xc6&\x8d\x9e\xf6Z\xf9\xfel6\xae\x98\x19\xd3\xd3@\xb5o\xc0\xde\x9fp\xa3%<Z%\xec\x8eh\xe9\x0b:\xb7\xe4\x16\x9f}Y\xd1\x8c\x0b\xc3{\xf5\xbfw\xdd[,\xf29\xad\xef\xc755\x89\xd9\xf2U\xdfToS6\xe06\xec\xb4U\x82\xb6\xb2\xdf\xf3\x83\x1f\x08\xff,\xbaQ\xd8[\x14/\xac\xb3\xc7\x88\x86\xd4l\xb98{\xc8\x1d&\xc8\x8c\x95ml\x97\xb29\x93\xad\x7f\x9coe}r\xfa\xcbY\x19\xd0mF\xcb\xeeO\xcb\xb3\xf3\xa7\x0f\xbf\xdd\xd9\x11\x92\xac\xb4~\x9b#\x99)\xfdnAW\xe4\x9c\x93\xd8\x95OX\xff4\xd9\x1d2":k>Cx1)}\x1f\xbb\xb29\x92\x9c6\xc6&\x8d\x9e\xf6Z\xf9\xfel6\xae\x98\x19\xd3\xd3@\xb5o\xc0\xde\x9fp\xa3%<Z%\xec\x8eh\xe9\x0b:\xb7\xe4\x16\x9f}Y\xd1\x8c\x0b\xc3{\xf5\xbfw\xdd[,\xf29\xad\xef\xc755\x89\xd9\xf2U\xdfToS6\xe06\xec\xb4U\x82\xb6\xb2\xdf\xf3\x83@\x90\xf2\xb2-\xacq\x8d\x05Xu\x99n\xe5\xb1\x06=_\x87\x10\x04\xd2\xc0\n\xc0\x0f_\x96\x1du\xd0b\r&=LtA\xea\xfb$\xe3\xb1\x05L\x1c7\xe1Y\xef\\\x82\x08E'
+[DEBUG  ] send_request_headers.complete
+[DEBUG  ] send_request_body.started request=<Request [b'POST']> stream_id=1
+[DEBUG  ] send_request_body.complete
+[DEBUG  ] receive_response_headers.started request=<Request [b'POST']> stream_id=1
+[DEBUG  ] receive_remote_settings.started
+[DEBUG  ] [receive_remote_settings.complete return_value=<RemoteSettingsChanged changed_settings]{ChangedSetting(setting=3, original_value=None, new_value=100), ChangedSetting(setting=4, original_value=65535, new_value=65536), ChangedSetting(setting=5, original_value=16384, new_value=16777215)}>
+[DEBUG  ] Decoding b'?\xe1\x1f\x88a\x96\xc3a\xbe\x94\x10T\xd2~\xea\x08\x02m@9p \xb8\x11)\x8bF\xff_\x8b\x1du\xd0b\r&=LtA\xeav\x87%\x07\xb6Ih\x1d\x85@\x85$\xabX?_\x8f|a(\x1b$axCi\xe1\x01k\xba\xb4\x7f@\x8a$\xab\x10d\x9c\xab!#M\xa8\x86\xbf\xcfL:2^Z\x83\x9b\xd9\xabx\xa0\xa4~V\x1c\xc5\x81\x90\xb6\xcb\x80\x00>\xd45D\xa2\xd9\x0b\xba\xd8\xef\x9e\x91\x9a\xa4}\xa9]\x85\xa0\xe3\x93{\x91\xd5a\xa65_JBB\x16\xb4\xad\x82\xa2\x1eCU7@\x94Dk\x0e\xd4\xce\xb5\x85\x96\xc2\xa2u\x92~\xa5\xa9j\xec,\xa6\xf3\x84w\xbb\x94\xc7@\x8dDk\x0e\xd4\xce\xb2\n\x84\x18\xf5,i?\x9a\x91\x91\xc6\xd9^"\xcd\x08@Y\xa9e\x91g\x9b\x0b\x8b4\xf3/\x82A\xb4\xcbR\xbd@\x8bDk\x0e\xd4\xce\xb5\xa8-\x8b\x1aO\x9a\x1b`z@\x95\x95\x9am\xf0,\xd3B*\xc3u\xb7V|\x02|\x8f\x026\x82\xe1?@\x8dDkL4\x97\xc0\xfd-\xdc\xb6 \xc7\xab\x011@\x8aDkWa\xfa\x14\x89Z\xc2\xcb\x90\x97\xd7\x8e\x9d\xbbu\xe9g\x93\x19\x1dj\x9a\x8a\xbaO@\x8aDkX^\xd6\x95\tX\xd2\x7f\x9a\x00_\x18\xdb\x03\xcbH9\\Y\xd2\x04+G\x1c\xb1\xac\xd8#+\xc0\x95\xb2\x15\x98\xff@\x90\xf2\xb1\x0fRKRVO\xaa\xca\xb1\xebI\x8fR?\x85\xa8\xe8\xa8\xd2\xcb@\x8f\xf2\xb1j\xee\x7fK\r)-5\xa5b\x1e\xda\x93\x011@\x95\xf2\xb1j\xee\x7fK[Z\x13aGJ\xc8-\x9d\xccB\xac\x93R_\x82\x08\x1cw\xffW\x8a"K\x14t\xc1\x826\xb1\xf0\x91\xbbn\xf5\x7fN2U\x87E\xed\xdc)\xfd(D(\xbd\x80\xbc\x0b\'\x0e\xcf\x97rc\xd9R\x16\x0b\xae2\xe8\x1bh"X+\x81p\xae\x15\xb9\xfbj|\x97j\xd9\x8d\xfb\xcc\xe3GZ\x1c\x0eO\xde\x12~\xb8\xe7x}w\x8b\x96\x96\xb3\x83W(\xfb\xf9r,\xd7\xcfN\xe7\x9e\x8c]vW\x9f7\x1c\xfeoe\xf4\x8f\\;k>\xac\xc8\xddGm|u\xfb\xbc\x0co\xdf\xb7\x99\xdd\x15\xda9y\xfd~!\xfa\xcd\xdb\xb8\xb4\xeb\xe8\xbf\xec\xdfjV4\xcf\x03\x1fj\x17\xcdf\xb0\xa8\x83\r\x86\xfaPA[I\xfb\xac&\xd4\x03\x97\x1a\x05\xc0\x89LZ7\xfd\xa9!\xe9\x19\xaa\x81t[X\xe3\x1a\n\xb9\x0f\xf6\xa64\xa6\xbdUQ\xeb\xedM\xc5%\xb6\x17\xedM\xc3\xa4\xbb\x8c\x92\xc1\xa4\xf5\x17@\x85\x1d\tY\x1d\xc9\x90\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x81\xe7\x1a\x00?'
+[DEBUG  ] Decoded 4096, consumed 3 bytes
+[DEBUG  ] Resizing header table to 4096 from 4096
+[DEBUG  ] Decoded 8, consumed 1 bytes
+[DEBUG  ] Decoded (b':status', b'200'), consumed 1
+[DEBUG  ] Decoded 33, consumed 1 bytes
+[DEBUG  ] Decoded 22, consumed 1 bytes
+[DEBUG  ] Decoded (b'date', b'Fri, 21 Nov 2025 06:10:12 GMT'), total consumed 24 bytes, indexed True
+[DEBUG  ] Decoded 31, consumed 1 bytes
+[DEBUG  ] Decoded 11, consumed 1 bytes
+[DEBUG  ] Decoded (b'content-type', b'application/json'), total consumed 13 bytes, indexed True
+[DEBUG  ] Decoded 54, consumed 1 bytes
+[DEBUG  ] Decoded 7, consumed 1 bytes
+[DEBUG  ] Decoded (b'server', b'cloudflare'), total consumed 9 bytes, indexed True
+[DEBUG  ] Decoded 5, consumed 1 bytes
+[DEBUG  ] Decoded 15, consumed 1 bytes
+[DEBUG  ] Decoded (b'cf-ray', b'9a1e05cb182a4820-BOM'), total consumed 23 bytes, indexed True
+[DEBUG  ] Decoded 10, consumed 1 bytes
+[DEBUG  ] Decoded 6, consumed 1 bytes
+[DEBUG  ] Decoded (b'cf-cache-status', b'DYNAMIC'), total consumed 19 bytes, indexed True
+[DEBUG  ] Decoded 26, consumed 1 bytes
+[DEBUG  ] Decoded 3, consumed 1 bytes
+[DEBUG  ] Decoded (b'content-encoding', b'gzip'), total consumed 5 bytes, indexed True
+[DEBUG  ] Decoded 56, consumed 1 bytes
+[DEBUG  ] Decoded 32, consumed 1 bytes
+[DEBUG  ] Decoded (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), total consumed 34 bytes, indexed True
+[DEBUG  ] Decoded 59, consumed 1 bytes
+[DEBUG  ] Decoded 17, consumed 1 bytes
+[DEBUG  ] Decoded (b'vary', b'Origin, Accept-Encoding'), total consumed 19 bytes, indexed True
+[DEBUG  ] Decoded 20, consumed 1 bytes
+[DEBUG  ] Decoded 4, consumed 1 bytes
+[DEBUG  ] Decoded (b'sb-auth-refresh-token-prefix', b'7v6mb'), total consumed 27 bytes, indexed True
+[DEBUG  ] Decoded 13, consumed 1 bytes
+[DEBUG  ] Decoded 26, consumed 1 bytes
+[DEBUG  ] Decoded (b'sb-auth-session-id', b'd3ab5e8c-4220-4ffd-8516-48390da434f8'), total consumed 42 bytes, indexed True
+[DEBUG  ] Decoded 11, consumed 1 bytes
+[DEBUG  ] Decoded 26, consumed 1 bytes
+[DEBUG  ] Decoded (b'sb-auth-user-id', b'a508d1e3-4590-442e-a757-9029c80b416c'), total consumed 40 bytes, indexed True
+[DEBUG  ] Decoded 13, consumed 1 bytes
+[DEBUG  ] Decoded 1, consumed 1 bytes
+[DEBUG  ] Decoded (b'sb-gateway-version', <memory at 0x000001E63C5BA980>), total consumed 17 bytes, indexed True
+[DEBUG  ] Decoded 10, consumed 1 bytes
+[DEBUG  ] Decoded 16, consumed 1 bytes
+[DEBUG  ] Decoded (b'sb-project-ref', b'fywjqqkjrxiisknglnjh'), total consumed 29 bytes, indexed True
+[DEBUG  ] Decoded 10, consumed 1 bytes
+[DEBUG  ] Decoded 26, consumed 1 bytes
+[DEBUG  ] Decoded (b'sb-request-id', b'019aa508-daf6-7c11-bbfb-50be80f5ce3b'), total consumed 39 bytes, indexed True
+[DEBUG  ] Decoded 16, consumed 1 bytes
+[DEBUG  ] Decoded 5, consumed 1 bytes
+[DEBUG  ] Decoded (b'x-content-type-options', b'nosniff'), total consumed 24 bytes, indexed True
+[DEBUG  ] Decoded 15, consumed 1 bytes
+[DEBUG  ] Decoded 1, consumed 1 bytes
+[DEBUG  ] Decoded (b'x-envoy-attempt-count', <memory at 0x000001E63C5BAC80>), total consumed 19 bytes, indexed True
+[DEBUG  ] Decoded 21, consumed 1 bytes
+[DEBUG  ] Decoded 2, consumed 1 bytes
+[DEBUG  ] Decoded (b'x-envoy-upstream-service-time', b'106'), total consumed 26 bytes, indexed True
+[DEBUG  ] Decoded 55, consumed 1 bytes
+[DEBUG  ] Decoded 214, consumed 2 bytes
+[DEBUG  ] Decoded (b'set-cookie', b'__cf_bm=Eb4HUd5uBk9NHcnFMCSUmZe122_z0eUedUq9eStbQns-1763705412-1.0.1.1-Yz4hIBnQH9C3Hskl61IZUdZ66vAyv_WN4L0OWbvx6_KDomS88b2kQpLKVLxCJysyUqPoOKsSlqPVPzC0H9DuYo72BlWxZ9_ayKqv2NPj.Zg; path=/; expires=Fri, 21-Nov-25 06:40:12 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None'), total consumed 217 bytes, indexed True
+[DEBUG  ] Decoded 5, consumed 1 bytes
+[DEBUG  ] Decoded 16, consumed 1 bytes
+[DEBUG  ] Decoded (b'alt-svc', b'h3=":443"; ma=86400'), total consumed 24 bytes, indexed True
+[DEBUG  ] [receive_response_headers.complete return_value=(200, [(b'date', b'Fri, 21 Nov 2025 06]10:12 GMT'), (b'content-type', b'application/json'), (b'server', b'cloudflare'), (b'cf-ray', b'9a1e05cb182a4820-BOM'), (b'cf-cache-status', b'DYNAMIC'), (b'content-encoding', b'gzip'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'vary', b'Origin, Accept-Encoding'), (b'sb-auth-refresh-token-prefix', b'7v6mb'), (b'sb-auth-session-id', b'd3ab5e8c-4220-4ffd-8516-48390da434f8'), (b'sb-auth-user-id', b'a508d1e3-4590-442e-a757-9029c80b416c'), (b'sb-gateway-version', b'1'), (b'sb-project-ref', b'fywjqqkjrxiisknglnjh'), (b'sb-request-id', b'019aa508-daf6-7c11-bbfb-50be80f5ce3b'), (b'x-content-type-options', b'nosniff'), (b'x-envoy-attempt-count', b'1'), (b'x-envoy-upstream-service-time', b'106'), (b'set-cookie', b'__cf_bm=Eb4HUd5uBk9NHcnFMCSUmZe122_z0eUedUq9eStbQns-1763705412-1.0.1.1-Yz4hIBnQH9C3Hskl61IZUdZ66vAyv_WN4L0OWbvx6_KDomS88b2kQpLKVLxCJysyUqPoOKsSlqPVPzC0H9DuYo72BlWxZ9_ayKqv2NPj.Zg; path=/; expires=Fri, 21-Nov-25 06:40:12 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None'), (b'alt-svc', b'h3=":443"; ma=86400')])
+[INFO   ] [HTTP Request] POST https://fywjqqkjrxiisknglnjh.supabase.co/auth/v1/token?grant_type=password "HTTP/2 200 OK"
+[DEBUG  ] receive_response_body.started request=<Request [b'POST']> stream_id=1
+[DEBUG  ] receive_response_body.complete
+[DEBUG  ] response_closed.started stream_id=1
+[DEBUG  ] response_closed.complete
+[INFO   ] [Base        ] Leaving application in progress...
+ Traceback (most recent call last):
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\main.py", line 22, in <module>
+     TodoApp().run()
+     ~~~~~~~~~~~~~^^
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+     runTouchApp()
+     ~~~~~~~~~~~^^
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+     EventLoop.mainloop()
+     ~~~~~~~~~~~~~~~~~~^^
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+     self.idle()
+     ~~~~~~~~~^^
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+     self.dispatch_input()
+     ~~~~~~~~~~~~~~~~~~~^^
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+     post_dispatch_input(*pop(0))
+     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+     wid.dispatch('on_touch_up', me)
+     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivymd\uix\button\button.py", line 1145, in on_touch_up
+     return super().on_touch_up(touch)
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivymd\uix\behaviors\ripple_behavior.py", line 404, in on_touch_up
+     return super().on_touch_up(touch)
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+     self.dispatch('on_release')
+     ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+   File "C:\Users\angad\OneDrive\Desktop\todo_python_app\screens\todo_list.py", line 49, in add_task
+     dialog.add_action_button("Save", action=lambda *a: self.save_task(tf.text, dialog))
+     ^^^^^^^^^^^^^^^^^^^^^^^^
+ AttributeError: 'MDDialog' object has no attribute 'add_action_button'

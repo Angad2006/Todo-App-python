@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\main.py", line 35, in <module>
+    TodoApp().run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivymd\uix\button\button.py", line 1145, in on_touch_up
+    return super().on_touch_up(touch)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivymd\uix\behaviors\ripple_behavior.py", line 404, in on_touch_up
+    return super().on_touch_up(touch)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "C:\Users\angad\OneDrive\Desktop\todo_python_app\screens\login.py", line 60, in open_register_dialog
+    height=dp(48),
+           ^^
+NameError: name 'dp' is not defined
