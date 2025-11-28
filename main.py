@@ -14,12 +14,11 @@ class WindowManager(ScreenManager):
 
 class TodoApp(MDApp):
     def build(self):
-        # make sure local tables exist
         create_tables()
 
         # app theme
-        self.theme_cls.theme_style = "Light"          # or "Dark"
-        self.theme_cls.primary_palette = "Blue"       # "Teal", "Purple", "Indigo", etc.
+        self.theme_cls.theme_style = "Light"          
+        self.theme_cls.primary_palette = "Blue"       
         self.theme_cls.primary_hue = "500"
 
         # screen manager
@@ -34,10 +33,8 @@ if __name__ == "__main__":
     try:
         TodoApp().run()
     except Exception:
-        # write full traceback to file for debugging
         with open("error.log", "w", encoding="utf-8") as f:
             traceback.print_exc(file=f)
         print("An error occurred. Full traceback written to error.log")
-        # also print to console so you see something before the window closes
         traceback.print_exc(file=sys.stdout)
         raise
